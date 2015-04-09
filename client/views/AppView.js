@@ -10,6 +10,7 @@ var AppView = Backbone.View.extend({
     // ONLY receive change events for the specific property, 'currentSong'
     this.model.on('change:currentSong', function(model){
       this.playerView.setSong(model.get('currentSong'));
+      this.model.get('songQueue').remove(model.get('currentSong'));
     }, this);
 
 
@@ -30,3 +31,7 @@ var AppView = Backbone.View.extend({
 //CREATING VIEW FOR ENTIRE APP - DISPLAYING MUSIC PLAYER AND LIBRARY
 
   //WHEN CURRENT SONG CHANGES, GET NEW SONG MODEL
+
+
+
+

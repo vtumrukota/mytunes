@@ -7,7 +7,12 @@ var LibraryEntryView = Backbone.View.extend({
 
   events: {
     'click': function() {
-      //this.model.play();
+      // if(queue is empty){
+      //   //autoplay first song clicked
+      //   this.model.play();
+      // } else {
+      //   this.model.enqueue();
+      // }
       this.model.enqueue();
     }
   },
