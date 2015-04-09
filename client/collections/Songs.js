@@ -4,3 +4,6 @@ var Songs = Backbone.Collection.extend({
   model: SongModel
 
 });
+
+
+//CREATING COLLECTION OF SONG MODELS

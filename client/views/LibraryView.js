@@ -20,3 +20,5 @@ var LibraryView = Backbone.View.extend({
   }
 
 });
+
+//CREATING THE LIBRARY TO DISPLAY ALL THE SONG MODELS

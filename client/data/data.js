@@ -21,3 +21,6 @@ var songData = [
     artist: "Aaliyah",
   }
 ];
+
+
+//DATA FOR SONGS TO PLAY

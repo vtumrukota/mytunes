@@ -18,3 +18,7 @@ var PlayerView = Backbone.View.extend({
   }
 
 });
+
+
+
+//THIS WILL UPDATE THE URL TO THE CORRECT SONG
