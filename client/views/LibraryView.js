@@ -4,8 +4,15 @@ var LibraryView = Backbone.View.extend({
   tagName: "table",
 
   initialize: function() {
+    // this.get('currentSong').on('change:playCount', function(){
+    //   this.render();
+    // });
     this.render();
+    // console.dir(this.collection.models);
+
   },
+
+
 
   render: function(){
     // to preserve event handlers on child nodes, we must call .detach() on them before overwriting with .html()
